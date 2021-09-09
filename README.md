@@ -11,7 +11,9 @@ Pada project ini saya membuat aplikasi pariwisata dengan nama Aplikasi Bogor Pis
 
 # Tampilan
 
-<img src="https://user-images.githubusercontent.com/58428980/132637547-90de48fc-b53d-4631-9c8c-6a9fa896575b.mp4" alt="Your image title" width="250"/> 
+https://user-images.githubusercontent.com/58428980/132637882-21997a2f-6d3a-488d-86c9-531363d0c314.mp4
+
+https://user-images.githubusercontent.com/58428980/132638425-fdc736e2-a69e-4bc8-9c3e-bd46a5b970b1.mp4
 
 <img src="https://user-images.githubusercontent.com/58428980/132637191-0be00464-4fdd-4940-81b1-fb7d5f3232ef.png" alt="Your image title" width="250"/> <img src="https://user-images.githubusercontent.com/58428980/132637200-e996db8e-0fc2-4303-80dd-39effa23baab.png" alt="Your image title" width="250"/> 
 
