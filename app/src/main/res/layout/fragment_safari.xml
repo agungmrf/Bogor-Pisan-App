@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".JavaWisata.Safari">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@color/abu"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/safari"
+                    app:layout_collapseMode="parallax" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maisonneuebold"
+                    android:text="Deskripsi"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Taman Safari Cisarua Bogor merupakan salah satu tempat wisata favorit di kota Bogor. Tidak seperti kebun binatang pada umumnya, dimana untuk bisa mengelilingi kebun binatang pengunjung harus berjalan kaki, di Taman Safari Bogor pengunjung dapat berkeliling melihat dari dekat koleksi satwa dengan mengendarai mobil pribadi atau naik bis yang disediakan oleh pihak pengelola. Anda juga bisa berinteraksi dan memberi makan secara langsung kepada hewan-hewan yang berjumlah sekitar 2500 koleksi satwa dari hampir seluruh penjuru dunia termasuk satwa langka, seperti harimau benggala, jerapah, singa, orang utan, gajah, anoa, komodo dan lain sebagainya."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Selain melihat binatang secara langsung dari dekat, Anda juga bisa mengajak teman atau keluarga Anda menikmati wahana lain yang tersedia seperti water park, cobow show dan lain sebagainya. Melihat koleksi satwa lalu dilanjutkan dengan menikmati beberapa wahana yang tersedia pasti akan menjadi memberikan pengalaman yang mengesankan dan tak terlupakan."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/maisonneuebold"
+                    android:text="Rute dan Alamat Taman Safari Bogor"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Taman Safari Indonesia terletak di Desa Cibeureum Kecamatan Cisarua, Kabupaten Bogor, Jawa Barat atau yang lebih dikenal dengan kawasan Puncak Bogor. Akses menuju ke Taman Safari Bogor cukuplah baik, Anda bisa pergi dengan menggunakan kendaraan umum maupun kendaraan pribadi."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuedemi"
+                    android:text="- Kendaraan Pribadi"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Jika Anda berangkat dari arah Jakarta, berjalanlah menuju dan masuk tol Jagorawi > keluar Gadog atau Ciawi menuju Cisarua Puncak Bogor > Sesampai di jalan Raya Puncak berbeloklah ke kanan masuk ke jalan Taman Safari dan ikuti jalan kurang lebih 2 km."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuedemi"
+                    android:text="- Bus"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Dari arah Jakarta, naiklah bus dari Kampung Rambutan jurusan Jakarta – Bandung yang akan melewati Puncak Bogor > turun di pertigaan Taman Safari, kemudian dilanjutkan dengan naik Ojek atau Angkot, dalam 10 menit sampai ke Taman Safari Indonesia."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuedemi"
+                    android:text="- Kereta Api"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Dari arah Jakarta, silahkan pergi ke stasiun Bogor, kemudian naik angkot nomor 02 ke Sukasari > Dari Sukasari naik angkot lagi ke Cisarua > turun di pertigaan Taman Safari dan lanjutkan perjalanan dengan naik ojek atau angkot."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

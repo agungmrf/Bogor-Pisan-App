@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".JavaWisata.Gede">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@color/abu"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gede"
+                    app:layout_collapseMode="parallax" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maisonneuebold"
+                    android:text="Deskripsi"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Gunung Pangrango adalah gunung berapi yang tingginya mencapai 2.958 mdpl. Letaknya yang tak jauh dari Jakarta membuat banyak warga ibu kota mendaki Gunung Pangrango saat akhir pekan. Apalagi, gunung yang masuk di kawasan Taman Nasional Gunung Pangrango ini menyimpan banyak keindahan alam yang memukau."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Jika kamu ingin menaklukkan Puncak Pangrango, berikut adalah informasi yang berguna untuk rencana pendakian:"
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/maisonneuebold"
+                    android:text="Keistimewaan Gunung Pangrango"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Keindahan alam yang masih terjaga di Gunung Pangrango menjadi daya tarik utama bagi para pendaki. Ada banyak objek wisata menarik di sepanjang jalur menuju puncak yang bisa kamu temukan. Inilah beberapa objek alam istimewa yang akan kamu temukan di Gunung Pangrango:"
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuedemi"
+                    android:text="- Telaga Biru yang cantik"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Telaga Biru adalah sebuah danau kecil yang indah dan dikelilingi hutan rimbun. Daya tarik Telaga Biru adalah air danau yang seringkali terlihat kebiruan saat terkena paparan sinar matahari. Namun, warna air terkadang dapat berubah menjadi cokelat atau hijau tergantung pertumbuhan alga di dalamnya."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Telaga Biru akan kamu jumpai ketika melakukan pendakian lewat jalur Cibodas dengan ketinggian 1.575 mdpl. Di sini, kamu dapat menikmati keindahan dan keheningan Telaga Biru sembari ditemani suara burung-burung yang berkicau. Telaga ini juga sering dimanfaatkan pendaki sebagai pos istirahat."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuedemi"
+                    android:text="- Alun-alun Surya Kencana dengan hamparan edelweiss"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Bagi penyuka edelweiss, Alun-alun Surya Kencana adalah tempat terbaik untuk kamu melihat bunga yang cantik ini. Sejauh mata memandang, hamparan edelweiss yang tumbuh subur menjadi daya tarik bagi para pendaki untuk berfoto. Datanglah ke sini sekitar Juni - Agustus untuk melihat edelweiss bermekaran dengan sempurna."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

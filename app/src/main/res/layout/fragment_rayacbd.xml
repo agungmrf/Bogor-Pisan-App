@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".JavaWisata.Rayacbd">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@color/abu"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cbd"
+                    app:layout_collapseMode="parallax" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maisonneuebold"
+                    android:text="Deskripsi"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Kebun Raya Cibodas yang terletak di Kompleks Hutan Gunung Gede Pangrango, Desa Cimacan Kecamatan Cipanas Kabupaten Cianjur ini. Memang tepat berada di bawah kaki gunung Gede Pangrango dengan ketinggian 1.275 m dpl dan bersuhu udara 17 – 27 derajat Celcius. Bayangkan betapa sejuk dan segarnya udara di kebun raya yang satu ini."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Sejarah Kebun Raya Cibodas menurut beberapa sumber, didirikan pada tahun 1852 oleh Johannes Elias Teijsmann, seorang ahli Botani Belanda, sebagai cabang dari Kebun Raya Bogor pada lokasi di kaki Gunung Gede. Awalnya beliau membuka kebun raya ini untuk perkebunan kina. Tapi Ternyata tanah Cibodas tidak cocok untuk pohon kina. Dengan curah hujan 2.380 mm per tahun dan suhu rata-rata 18 derajat Celsius, akhirnya kebun botani ini dikhususkan bagi koleksi tumbuhan dataran tinggi basah tropika, seperti berbagai tumbuhan runjung dan paku-pakuan."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Nah, pada saat bibit pohon kina yang datang dari negeri Belanda tiba di Batavia yaitu pada 11 April 1852 ini yang kemudian dijadikan hari lahirnya Kebun Raya Cibodas. Uniknya setiap tanggal 11 April, Anda bisa bebas masuk ke Kebun Raya Cibodas gratis. Jadi bagi Anda yang suka gratisan silahkan kunjungi Kebun Raya Cibodas pada tanggal tersebut 😀"
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/maisonneuebold"
+                    android:text="Akses Menuju Kebun Raya Cibodas"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Bagi Anda yang ingin berkunjung ke Kebun Raya Cibodas, Anda harus menempuh jaraknya sekitar 85 km dari Jakarta. Atau, sekitar 90 menit perjalanan melalui jalan raya Bogor-Puncak-Cianjur sampai ke persimpangan Cimacan. Nah dari sana kita tinggal belok ke arah kebun Raya yang jaraknya kurang lebih 4 km lagi untuk sampai di Kebun Raya Cibodas ini."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Bagi Anda yang menggunakan Angkutan Umum, Anda bisa menggunakan jasa angkutan kota (angkot) jurusan Cipanas-Rarahan-Cibodas yang dengan mudah bisa Anda temukan di persimpangan Cimacan atau dari pasar Cipanas."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

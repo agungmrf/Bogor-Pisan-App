@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".JavaHotel.BogorIcon">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@color/abu"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bicon"
+                    app:layout_collapseMode="parallax" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maisonneuebold"
+                    android:text="Deskripsi"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Bogor Icon Hotel terletak di daerah Cimanggu, Bogor. Dengan alamat di Jalan Raya Baru No 1, hotel bintang 4 ini menawarkan kemewahan yang dibalut suasana alam Bogor. Dengan fasilitas yang memadai, akomodasi ini cocok untuk liburan keluarga terutama bagi mereka yang ingin sejenak rehat dari sibuknya kegiatan di Kota."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Hotel bintang empat di Bogor ini memiliki pemandangan yang luar biasa terutama dari kamar yang terletak di lantai atas. Dari atas, pengunjung bisa menikmati pemandangan pegunungan serta Kota Bogor dari ketinggian. Dengan jumlah kamar sebanyak 345 unit, Hotel Bogor Icon menyediakan empat jenis kamar yang berbeda yaitu Superior, Deluxe, Junior Suite, dan Suite."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Selain empat jenis kamar yang berbeda, terdapat pula 12 ruangan meeting, convention, dan ballroom yang memiliki kapasitas, luas, dan letak yang berbeda. Bukan hanya bisa dijadikan tempat menginap, hotel ini juga memadai untuk dijadikan tempat berbagai kegiatan dari mulai rapat hingga event tertentu seperti pernikahan, seminar, dan ulang tahun."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Hotel Bogor Icon terletak di pintu perumahan Bukit Cimanggu City dan tidak jauh dari beberapa tempat wisata. Kawasan wisata seperti Istana Bogor dan Kebun Raya Bogor bisa dijangkau dalam jarak kurang dari 5 kilometer. Selain itu, Bogor juga terkenal dengan wisata kuliner yang beragam. Begitu keluar dari kawasan Bukit Cimanggu City, Anda sudah bisa menemukan warung makan, toko oleh-oleh, serta restoran yang dapat memuaskan selera."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".JavaFest.PestaRayaBgr">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@color/abu"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingTop="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fest5"
+                    app:layout_collapseMode="parallax" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maisonneuebold"
+                    android:text="Deskripsi"
+                    android:textColor="@color/bk"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Bersamaan dengan Porda Jabar 2018, Sesuai instruksi Bupati Bogor, Pesta Raya Bogor 2018 dilaksanakan pada tanggal 6-16 Oktober 2018 di Parkir Stadiun Pakansari, Cibinong, Bogor dengan tidak menggunakan Anggaran Pendapatan Belanja Daerah (non APBD) kegiatan ini menjadi kegiatan unggulan untuk mengusung Sukses Ekonomi Porda Jabar 2018."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Sedikitnya 1.000 Stand Pameran dan Bazaar pelaku ekonomi kreatif di Pesta Raya Bogor akan menjadi surga belanja bagi Para Atlet, Official Team, Fans, masyarakat Bogor dan masyarakat pada umumnya. Dengan menyuguhkan berbagai harga spesial. Mulai dari Kerajinan Bogor, Fesyen, Kuliner Khas Bogor dan berbagai wahana permainan anak disebut Bogor untuk Ramah Masyarakat."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/maisonneuebook"
+                    android:text="Tidak sampai disitu, Pesta Raya Bogor akan dimeriahkan Panggung Artis Ibukota ternama, sebut saja; Siti Badriah dan Zaskia Gotik dan deretan artis lainnya dibuka untuk umum tanpa dipungut biaya atau gratis masuk, dengan bangga Pesta Raya Bogor 2018 siap memberikan hiburan yang meriah siap menggelorakan semangat sukseskan Porda Jabar 2018."
+                    android:textColor="@color/bk"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>
